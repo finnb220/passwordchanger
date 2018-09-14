@@ -70,18 +70,14 @@
       <systemPath>${libDirectory}/json/json-20141113.jar</systemPath>
     </dependency>
     <dependency>
-      <groupId>org.apache.http</groupId>
+      <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
       <version>4.4.1</version>
-      <scope>system</scope>
-      <systemPath>/${libDirectory}http-client/httpclient-4.4.1.jar</systemPath>
     </dependency>
       <dependency>
-          <groupId>org.apache.http</groupId>
-          <artifactId>http-core</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+          <artifactId>httpcore</artifactId>
           <version>4.4.1</version>
-          <scope>system</scope>
-          <systemPath>/${libDirectory}http-client/httpcore-4.4.1.jar</systemPath>
       </dependency>
     <dependency>
       <groupId>commons-codec</groupId>
