@@ -35,18 +35,14 @@
       <systemPath>${libDirectory}enterprise.jar</systemPath>
     </dependency>
     <dependency>
-        <groupId>com.sforce.soap.partner</groupId>
-      <artifactId>partner</artifactId>
-      <version>1.0.0</version>
-      <scope>system</scope>
-      <systemPath>${libDirectory}partner.jar</systemPath>
+        <groupId>com.force.api</groupId>
+      <artifactId>force-partner-api</artifactId>
+      <version>44.0.0</version>
     </dependency>
     <dependency>
-        <groupId>com.sforce</groupId>
+        <groupId>com.sforce.api</groupId>
       <artifactId>force-wsc</artifactId>
       <version>44.0.0</version>
-      <scope>system</scope>
-      <systemPath>${libDirectory}force-wsc-44.0.0.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.sforce</groupId>
@@ -56,11 +52,9 @@
       <systemPath>${libDirectory}force-wsc-44.0.0-uber.jar</systemPath>
     </dependency>
     <dependency>
-      <groupId>com.sforce.soap.metadata</groupId>
-      <artifactId>metadata</artifactId>
-      <version>1.0</version>
-      <scope>system</scope>
-      <systemPath>${libDirectory}metadata.jar</systemPath>
+      <groupId>com.sforce.api</groupId>
+      <artifactId>force-metadata-api</artifactId>
+      <version>44.0.0</version>
     </dependency>
     <dependency>
       <groupId>json</groupId>
@@ -88,13 +82,11 @@
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
-      <systemPath>${libDirectory}http-client/commons-logging-1.2.jar</systemPath>
     </dependency>
       <dependency>
           <groupId>javax.servlet</groupId>
           <artifactId>javax.servlet-api</artifactId>
           <version>3.0.1</version>
-          <scope>provided</scope>
       </dependency>
   </dependencies>
 
